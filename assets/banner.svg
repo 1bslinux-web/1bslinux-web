@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="1bslinux">
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#15162b"/></linearGradient>
+<linearGradient id="accent"><stop stop-color="#67d4ff"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#7068d8" stop-opacity=".18"/><stop offset="1" stop-color="#7068d8" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#a3b4df" stroke-opacity=".045"/></pattern>
+</defs>
+<rect width="1200" height="320" rx="20" fill="url(#bg)"/>
+<rect width="1200" height="320" rx="20" fill="url(#grid)"/>
+<ellipse cx="600" cy="160" rx="520" ry="240" fill="url(#glow)"/>
+<path d="M60 95V60H95M1105 60H1140V95M60 225V260H95M1105 260H1140V225" fill="none" stroke="url(#accent)" stroke-opacity=".45" stroke-width="2"/>
+<text x="600" y="181" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="68" font-weight="600" letter-spacing="2" fill="#f0f3ff">1bslinux</text>
+<rect x="552" y="213" width="96" height="3" rx="1.5" fill="url(#accent)"/>
+</svg>
